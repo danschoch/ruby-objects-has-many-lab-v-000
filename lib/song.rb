@@ -7,4 +7,8 @@ class Song
     @name = name
     @@all << self
   end
+
+  def artist
+    self.artist
+  end
 end
