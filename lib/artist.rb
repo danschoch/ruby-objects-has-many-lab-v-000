@@ -24,6 +24,7 @@ class Artist
   def self.total_songs
     @@total_songs
   end
+  
   def self.song_count
     self.total_songs.length
   end
